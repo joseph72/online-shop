@@ -1,0 +1,116 @@
+/**
+*   Company:
+*	Company URL:
+*	Company Location: 
+*   Version: 0.0.1
+*
+*   File Purpose: Responsive Style-Sheet
+*
+*   Author: Joseph Afari
+*   Author URL:
+*
+*
+*   Copyright © 2017 Online Shop.
+*/
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+	#footer .signature, #footer .legal{
+		text-align: center;
+	}
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+	#footer .signature, #footer .legal{
+		text-align: center;
+	}
+}
+
+/*custom*/
+@media only screen
+and (min-width : 481px)
+and (max-width: 767px) {
+/* Styles */
+	#footer .signature, #footer .legal{
+		text-align: center;
+	}
+}
+
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+	#footer .legal{
+		text-align: right;
+	}
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+	.brand{
+		width: 95%;
+	}
+	#footer .legal{
+		text-align: right;
+	}
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+	#footer .legal{
+		text-align: right;
+	}
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+	.banner-divider{
+		border-right: .5px solid #4A3F15;
+	}
+	#footer .legal{
+		text-align: right;
+	}
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+	#footer .legal{
+		text-align: right;
+	}
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+
+}
